@@ -1,5 +1,5 @@
 VENDOR=sony
-DEVICE=sumire
+DEVICE=suzuran
 
 OUTDIR=vendor/$VENDOR/$DEVICE
 MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk
