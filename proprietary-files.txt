@@ -1,0 +1,153 @@
+# Audio ACDB
+etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb
+etc/acdbdata/Fluid/Fluid_General_cal.acdb
+etc/acdbdata/Fluid/Fluid_Global_cal.acdb
+etc/acdbdata/Fluid/Fluid_Handset_cal.acdb
+etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb
+etc/acdbdata/Fluid/Fluid_Headset_cal.acdb
+etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb
+etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb
+etc/acdbdata/Liquid/Liquid_General_cal.acdb
+etc/acdbdata/Liquid/Liquid_Global_cal.acdb
+etc/acdbdata/Liquid/Liquid_Handset_cal.acdb
+etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb
+etc/acdbdata/Liquid/Liquid_Headset_cal.acdb
+etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb
+etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
+etc/acdbdata/MTP/MTP_General_cal.acdb
+etc/acdbdata/MTP/MTP_Global_cal.acdb
+etc/acdbdata/MTP/MTP_Handset_cal.acdb
+etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
+etc/acdbdata/MTP/MTP_Headset_cal.acdb
+etc/acdbdata/MTP/MTP_Speaker_cal.acdb
+
+# Keymaster
+vendor/lib/libQSEEComAPI.so
+vendor/lib64/libQSEEComAPI.so
+
+# Idmap
+bin/idmap
+vendor/overlay/SemcTvOut-Overlay-300.apk
+vendor/overlay/overlay-semcexperienceflow2-300.apk
+vendor/overlay/FingerprintsASM-Overlay-275.apk
+vendor/overlay/ServiceMenu-Overlay-270.apk
+vendor/overlay/SuperStamina-Overlay-275.apk
+vendor/overlay/ServiceMenu-Overlay-275.apk
+vendor/overlay/HwColorThemeDefault-Overlay.apk
+
+# Media
+lib64/libmedia_jni.so
+lib64/libstagefright.so
+lib/libmedia_jni.so
+lib/libstagefright.so
+
+# ADSP
+bin/adsprpcd
+vendor/lib64/libadsprpc.so
+vendor/lib/libadsprpc.so
+vendor/lib/libfastcvopt.so
+
+# Bluetooth
+etc/firmware/BCM43xx.hcd
+
+# HDCP
+etc/firmware/tzhdcp.b00
+etc/firmware/tzhdcp.b01
+etc/firmware/tzhdcp.b02
+etc/firmware/tzhdcp.b03
+etc/firmware/tzhdcp.mdt
+
+# Misc
+bin/chargemon
+bin/updatemiscta
+
+# NFC
+etc/libnfc-nxp.conf
+etc/libnfc-brcm.conf
+vendor/firmware/libpn547_fw.so
+
+# Sensors
+bin/sensors.qcom
+vendor/lib/libsensor1.so
+etc/sensors/sensor_def_qcomdev.conf
+
+# Graphics
+# Graphics
+vendor/lib64/egl/eglSubDriverAndroid.so
+vendor/lib64/egl/libEGL_adreno.so
+vendor/lib64/egl/libGLESv1_CM_adreno.so
+vendor/lib64/egl/libGLESv2_adreno.so
+vendor/lib64/egl/libq3dtools_adreno.so
+vendor/lib64/egl/libq3dtools_esx.so
+vendor/lib64/egl/libQTapGLES.so
+vendor/lib64/libadreno_utils.so
+vendor/lib64/libbccQTI.so
+vendor/lib64/libc2d30-a4xx.so
+vendor/lib64/libC2D2.so
+vendor/lib64/libCB.so
+vendor/lib64/libgsl.so
+vendor/lib64/libllvm-glnext.so
+vendor/lib64/libllvm-qcom.so
+vendor/lib64/libmm-disp-apis.so
+vendor/lib64/libOpenCL.so
+vendor/lib64/libRSDriver_adreno.so
+vendor/lib64/librs_adreno.so
+vendor/lib64/librs_adreno_sha1.so
+vendor/lib64/libscale.so
+vendor/lib/egl/eglSubDriverAndroid.so
+vendor/lib/egl/libEGL_adreno.so
+vendor/lib/egl/libGLESv1_CM_adreno.so
+vendor/lib/egl/libGLESv2_adreno.so
+vendor/lib/egl/libq3dtools_adreno.so
+vendor/lib/egl/libq3dtools_esx.so
+vendor/lib/egl/libQTapGLES.so
+vendor/lib/libadreno_utils.so
+vendor/lib/libbccQTI.so
+vendor/lib/libc2d30-a4xx.so
+vendor/lib/libC2D2.so
+vendor/lib/libCB.so
+vendor/lib/libgsl.so
+vendor/lib/libllvm-glnext.so
+vendor/lib/libllvm-qcom.so
+vendor/lib/libmm-disp-apis.so
+vendor/lib/libOpenCL.so
+vendor/lib/libRSDriver_adreno.so
+vendor/lib/librs_adreno.so
+vendor/lib/librs_adreno_sha1.so
+vendor/lib/libscale.so
+
+# Graphics firmware
+etc/firmware/a420_pfp.fw
+etc/firmware/a420_pm4.fw
+
+# TouchScreen
+etc/firmware/touch_module_id_0x01.img  
+etc/firmware/touch_module_id_0x06.img  
+etc/firmware/touch_module_id_0x1c.img  
+etc/firmware/touch_module_id_0x21.img  
+etc/firmware/touch_module_id_0x2a.img
+etc/firmware/touch_module_id_0x02.img  
+etc/firmware/touch_module_id_0x07.img  
+etc/firmware/touch_module_id_0x1d.img  
+etc/firmware/touch_module_id_0x22.img  
+etc/firmware/touch_module_id_0x2b.img
+etc/firmware/touch_module_id_0x03.img  
+etc/firmware/touch_module_id_0x08.img  
+etc/firmware/touch_module_id_0x1e.img  
+etc/firmware/touch_module_id_0x23.img  
+etc/firmware/touch_module_id_0xa0.img
+etc/firmware/touch_module_id_0x04.img  
+etc/firmware/touch_module_id_0x1a.img  
+etc/firmware/touch_module_id_0x1f.img  
+etc/firmware/touch_module_id_0x26.img  
+etc/firmware/touch_module_id_0xa1.img
+etc/firmware/touch_module_id_0x05.img  
+etc/firmware/touch_module_id_0x1b.img  
+etc/firmware/touch_module_id_0x20.img  
+etc/firmware/touch_module_id_0x27.img
+usr/idc/clearpad.idc
+
+# WiFi firmware
+etc/firmware/wlan/bcmdhd/bcmdhd.cal
+etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin
+etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin

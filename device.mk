@@ -12,6 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720
+
 DEVICE_PACKAGE_OVERLAYS += \
     device/sony/suzuran/overlay
 
@@ -61,4 +65,4 @@ PRODUCT_PROPERTY_OVERRIDES := \
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/sony/kitakami/platform.mk)
-$(call inherit-product, vendor/sony/suzuran/suzuran-vendor.mk)
+$(call inherit-product-if-exists, vendor/sony/suzuran/suzuran-vendor.mk)

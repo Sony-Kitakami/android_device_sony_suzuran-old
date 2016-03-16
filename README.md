@@ -1,7 +1,3 @@
-Copyright (C) Sony Mobile Communications 2015
-=============================================
+# CyanogenMod device configuration tree for the Sony Xperia Z5 Compact E5823
 
-This is the Android device configuration for Xperia Z5 Compact (kitakami platform).
-
-Build instructions
-http://developer.sonymobile.com/knowledge-base/open-source/open-devices/aosp-build-instructions/
+This tree is WIP (Work in Progress), meaning it is far beyond finish and may not work at it's current state

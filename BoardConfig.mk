@@ -16,6 +16,9 @@ include device/sony/kitakami/PlatformConfig.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := E5823
 
+#Kernel
+TARGET_KERNEL_SOURCE := kernel/sony/kitakami/LA.BF64.1.1_rb1.27
+TARGET_KERNEL_CONFIG := cyanogen_kitakami_suzuran_defconfig
 BOARD_KERNEL_CMDLINE += androidboot.hardware=suzuran
 
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
