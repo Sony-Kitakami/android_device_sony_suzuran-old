@@ -33,6 +33,9 @@ vendor/overlay/ServiceMenu-Overlay-275-release.apk
 vendor/overlay/TimeShiftCamera-Overlay-275-release.apk
 vendor/overlay/overlay-semcexperienceflow2-300-release.apk
 
+# Time Service
+app/TimeService/TimeService.apk
+
 
 # Media
 lib64/libmedia_jni.so
