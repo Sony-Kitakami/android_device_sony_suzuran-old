@@ -36,6 +36,7 @@ vendor/overlay/overlay-semcexperienceflow2-300-release.apk
 # Time Service
 app/TimeService/TimeService.apk
 vendor/lib/libTimeService.so
+vendor/lib64/libTimeService.so
 
 
 # Media
