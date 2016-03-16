@@ -27,13 +27,12 @@ vendor/lib64/libQSEEComAPI.so
 
 # Idmap
 bin/idmap
-vendor/overlay/SemcTvOut-Overlay-300.apk
-vendor/overlay/overlay-semcexperienceflow2-300.apk
-vendor/overlay/FingerprintsASM-Overlay-275.apk
-vendor/overlay/ServiceMenu-Overlay-270.apk
-vendor/overlay/SuperStamina-Overlay-275.apk
-vendor/overlay/ServiceMenu-Overlay-275.apk
-vendor/overlay/HwColorThemeDefault-Overlay.apk
+vendor/overlay/HwColorThemeDefault-Overlay-release.apk
+vendor/overlay/ServiceMenu-Overlay-270-release.apk
+vendor/overlay/ServiceMenu-Overlay-275-release.apk
+vendor/overlay/TimeShiftCamera-Overlay-275-release.apk
+vendor/overlay/overlay-semcexperienceflow2-300-release.apk
+
 
 # Media
 lib64/libmedia_jni.so
@@ -121,30 +120,17 @@ etc/firmware/a420_pfp.fw
 etc/firmware/a420_pm4.fw
 
 # TouchScreen
-etc/firmware/touch_module_id_0x01.img  
-etc/firmware/touch_module_id_0x06.img  
-etc/firmware/touch_module_id_0x1c.img  
-etc/firmware/touch_module_id_0x21.img  
-etc/firmware/touch_module_id_0x2a.img
-etc/firmware/touch_module_id_0x02.img  
-etc/firmware/touch_module_id_0x07.img  
-etc/firmware/touch_module_id_0x1d.img  
-etc/firmware/touch_module_id_0x22.img  
-etc/firmware/touch_module_id_0x2b.img
-etc/firmware/touch_module_id_0x03.img  
-etc/firmware/touch_module_id_0x08.img  
-etc/firmware/touch_module_id_0x1e.img  
-etc/firmware/touch_module_id_0x23.img  
-etc/firmware/touch_module_id_0xa0.img
-etc/firmware/touch_module_id_0x04.img  
-etc/firmware/touch_module_id_0x1a.img  
-etc/firmware/touch_module_id_0x1f.img  
-etc/firmware/touch_module_id_0x26.img  
-etc/firmware/touch_module_id_0xa1.img
-etc/firmware/touch_module_id_0x05.img  
-etc/firmware/touch_module_id_0x1b.img  
-etc/firmware/touch_module_id_0x20.img  
-etc/firmware/touch_module_id_0x27.img
+etc/firmware/touch_module_id_0x30.img
+etc/firmware/touch_module_id_0x31.img
+etc/firmware/touch_module_id_0x32.img
+etc/firmware/touch_module_id_0x33.img
+etc/firmware/touch_module_id_0x40.img
+etc/firmware/touch_module_id_0x41.img
+etc/firmware/touch_module_id_0x42.img
+etc/firmware/touch_module_id_0x43.img
+etc/firmware/touch_module_id_0x44.img
+etc/firmware/touch_module_id_0x45.img
+
 usr/idc/clearpad.idc
 
 # WiFi firmware
