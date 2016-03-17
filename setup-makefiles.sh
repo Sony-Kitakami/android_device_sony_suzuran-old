@@ -62,9 +62,9 @@ done
 
 #Inherit Sony specific stuff
 PRODUCT_PLATFORM := kitakami
-$(call inherit-product, vendor/qcom/prebuilt/qcom-vendor.mk)
-$(call inherit-product, vendor/sony/kitakami/kitakami-partial.mk)
-$(call inherit-product, vendor/sony/suzuran/suzuran-partial.mk)
+\$(call inherit-product, vendor/qcom/prebuilt/qcom-vendor.mk)
+\$(call inherit-product, vendor/sony/kitakami/kitakami-partial.mk)
+\$(call inherit-product, vendor/sony/suzuran/suzuran-partial.mk)
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \\
