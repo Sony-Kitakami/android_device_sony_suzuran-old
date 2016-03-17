@@ -54,13 +54,6 @@ vendor/lib/libfastcvopt.so
 # Bluetooth
 etc/firmware/BCM43xx.hcd
 
-# HDCP
-etc/firmware/tzhdcp.b00
-etc/firmware/tzhdcp.b01
-etc/firmware/tzhdcp.b02
-etc/firmware/tzhdcp.b03
-etc/firmware/tzhdcp.mdt
-
 # Misc
 bin/chargemon
 bin/updatemiscta
@@ -68,7 +61,6 @@ bin/updatemiscta
 # NFC
 etc/libnfc-nxp.conf
 etc/libnfc-brcm.conf
-vendor/firmware/libpn547_fw.so
 
 # Sensors
 bin/sensors.qcom
