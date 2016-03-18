@@ -22,3 +22,17 @@ TARGET_KERNEL_CONFIG := cyanogen_kitakami_suzuran_defconfig
 BOARD_KERNEL_CMDLINE += androidboot.hardware=suzuran
 
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
+
+# TWRP flags
+TW_THEME := portrait_hdpi
+RECOVERY_GRAPHICS_USE_LINELENGTH := true
+RECOVERY_SDCARD_ON_DATA := true
+TW_FLASH_FROM_STORAGE := true
+TW_EXTERNAL_STORAGE_PATH := "/external_sd"
+TW_EXTERNAL_STORAGE_MOUNT_POINT := "external_sd"
+TW_DEFAULT_EXTERNAL_STORAGE := true
+TW_NO_USB_STORAGE := true
+TW_NO_SCREEN_BLANK := true
+
+# Target TWRP fstab in kitakami common tree
+TARGET_TWRP_FSTAB := true

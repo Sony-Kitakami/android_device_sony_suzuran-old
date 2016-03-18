@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := $(LOCAL_PATH)/suzuran_full.mk
+PRODUCT_MAKEFILES := $(LOCAL_PATH)/omni_suzuran.mk
