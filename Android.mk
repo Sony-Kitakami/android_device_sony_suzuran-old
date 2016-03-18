@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := $(call my-dir)
+LOCAL_PATH := device/sony/suzuran
 
 ifneq ($(filter suzuran, $(TARGET_DEVICE)),)
 

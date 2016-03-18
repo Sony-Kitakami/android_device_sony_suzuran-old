@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := $(LOCAL_PATH)/omni_suzuran.mk
+PRODUCT_MAKEFILES := device/sony/suzuran/omni_suzuran.mk
