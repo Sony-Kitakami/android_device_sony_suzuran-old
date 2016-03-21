@@ -20,14 +20,52 @@ DEVICE_PACKAGE_OVERLAYS += \
     device/sony/suzuran/overlay
 
 PRODUCT_COPY_FILES := \
-    device/sony/suzuran/rootdir/system/etc/audio_policy.conf:system/etc/audio_policy.conf \
-    device/sony/suzuran/rootdir/system/etc/BCM4356.hcd:system/etc/firmware/BCM43xx.hcd \
-    device/sony/suzuran/rootdir/system/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
-    device/sony/suzuran/rootdir/system/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
-    device/sony/suzuran/rootdir/system/etc/thermanager.xml:system/etc/thermanager.xml \
-    device/sony/suzuran/rootdir/system/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
-    device/sony/suzuran/rootdir/system/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
-    device/sony/suzuran/rootdir/system/etc/mixer_paths.xml:system/etc/mixer_paths.xml
+    device/sony/suzuran/rootdir/system/etc/Liquid_Handset_cal.acdb:system/etc/Liquid_Handset_cal.acdb \
+	device/sony/suzuran/rootdir/system/etc/MTP_Global_cal.acdb:system/etc/MTP_Global_cal.acdb \
+	device/sony/suzuran/rootdir/system/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
+	device/sony/suzuran/rootdir/system/etc/Sony_Hdmi_cal.acdb:system/etc/Sony_Hdmi_cal.acdb \
+	device/sony/suzuran/rootdir/system/etc/audio_policy.conf:system/etc/audio_policy.conf \
+	device/sony/suzuran/rootdir/system/etc/Fluid_Bluetooth_cal.acdb:system/etc/Fluid_Bluetooth_cal.acdb \
+	device/sony/suzuran/rootdir/system/etc/MTP_Hdmi_cal.acdb:system/etc/MTP_Hdmi_cal.acdb \
+	device/sony/suzuran/rootdir/system/etc/MTP_Headset_cal.acdb:system/etc/MTP_Headset_cal.acdb \
+	device/sony/suzuran/rootdir/system/etc/media_codecs_google_video.xml:system/etc/media_codecs_google_video.xml \
+	device/sony/suzuran/rootdir/system/etc/thermanager.xml:system/etc/thermanager.xml \
+	device/sony/suzuran/rootdir/system/etc/media_codecs_performance.xml:system/etc/media_codecs_performance.xml \
+	device/sony/suzuran/rootdir/system/etc/media_codecs_google_telephony.xml:system/etc/media_codecs_google_telephony.xml \
+	device/sony/suzuran/rootdir/system/etc/Liquid_General_cal.acdb:system/etc/Liquid_General_cal.acdb \
+	device/sony/suzuran/rootdir/system/etc/Fluid_General_cal.acdb:system/etc/Fluid_General_cal.acdb \
+	device/sony/suzuran/rootdir/system/etc/sound_trigger_platform_info.xml:system/etc/sound_trigger_platform_info.xml \
+	device/sony/suzuran/rootdir/system/etc/MTP_Bluetooth_cal.acdb:system/etc/MTP_Bluetooth_cal.acdb \
+	device/sony/suzuran/rootdir/system/etc/MTP_General_cal.acdb:system/etc/MTP_General_cal.acdb \
+	device/sony/suzuran/rootdir/system/etc/Fluid_Speaker_cal.acdb:system/etc/Fluid_Speaker_cal.acdb \
+	device/sony/suzuran/rootdir/system/etc/media_profiles.xml:system/etc/media_profiles.xml \
+	device/sony/suzuran/rootdir/system/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
+	device/sony/suzuran/rootdir/system/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
+	device/sony/suzuran/rootdir/system/etc/Sony_Handset_cal.acdb:system/etc/Sony_Handset_cal.acdb \
+	device/sony/suzuran/rootdir/system/etc/Liquid_Global_cal.acdb:system/etc/Liquid_Global_cal.acdb \
+	device/sony/suzuran/rootdir/system/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
+	device/sony/suzuran/rootdir/system/etc/mixer_paths_i2s.xml:system/etc/mixer_paths_i2s.xml \
+	device/sony/suzuran/rootdir/system/etc/Fluid_Hdmi_cal.acdb:system/etc/Fluid_Hdmi_cal.acdb \
+	device/sony/suzuran/rootdir/system/etc/Liquid_Bluetooth_cal.acdb:system/etc/Liquid_Bluetooth_cal.acdb \
+	device/sony/suzuran/rootdir/system/etc/Liquid_Speaker_cal.acdb:system/etc/Liquid_Speaker_cal.acdb \
+	device/sony/suzuran/rootdir/system/etc/Sony_Bluetooth_cal.acdb:system/etc/Sony_Bluetooth_cal.acdb \
+	device/sony/suzuran/rootdir/system/etc/Fluid_Headset_cal.acdb:system/etc/Fluid_Headset_cal.acdb \
+	device/sony/suzuran/rootdir/system/etc/MTP_Handset_cal.acdb:system/etc/MTP_Handset_cal.acdb \
+	device/sony/suzuran/rootdir/system/etc/Sony_General_cal.acdb:system/etc/Sony_General_cal.acdb \
+	device/sony/suzuran/rootdir/system/etc/Liquid_Headset_cal.acdb:system/etc/Liquid_Headset_cal.acdb \
+	device/sony/suzuran/rootdir/system/etc/Sony_Headset_cal.acdb:system/etc/Sony_Headset_cal.acdb \
+	device/sony/suzuran/rootdir/system/etc/Sony_Speaker_cal.acdb:system/etc/Sony_Speaker_cal.acdb \
+	device/sony/suzuran/rootdir/system/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
+	device/sony/suzuran/rootdir/system/etc/sound_trigger_mixer_paths.xml:system/etc/sound_trigger_mixer_paths.xml \
+	device/sony/suzuran/rootdir/system/etc/MTP_Speaker_cal.acdb:system/etc/MTP_Speaker_cal.acdb \
+	device/sony/suzuran/rootdir/system/etc/media_codecs_google_audio.xml:system/etc/media_codecs_google_audio.xml \
+	device/sony/suzuran/rootdir/system/etc/media_codecs.xml:system/etc/media_codecs.xml \
+	device/sony/suzuran/rootdir/system/etc/Liquid_Hdmi_cal.acdb:system/etc/Liquid_Hdmi_cal.acdb \
+	device/sony/suzuran/rootdir/system/etc/Sony_Global_cal.acdb:system/etc/Sony_Global_cal.acdb \
+	device/sony/suzuran/rootdir/system/etc/Fluid_Global_cal.acdb:system/etc/Fluid_Global_cal.acdb \
+	device/sony/suzuran/rootdir/system/etc/Fluid_Handset_cal.acdb:system/etc/Fluid_Handset_cal.acdb \
+	device/sony/suzuran/rootdir/system/etc/BCM4356.hcd:system/etc/BCM4356.hcd
+
 
 # Device Specific Permissions
 PRODUCT_COPY_FILES += \
