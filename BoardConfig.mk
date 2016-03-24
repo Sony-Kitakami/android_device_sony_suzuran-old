@@ -12,6 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Satisfy TWRP specific conditions in common kitakami tree
+RECOVERY_VARIANT := twrp
+
 include device/sony/kitakami/PlatformConfig.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := E5823
@@ -22,6 +25,3 @@ TARGET_KERNEL_CONFIG := cyanogen_kitakami_suzuran_defconfig
 BOARD_KERNEL_CMDLINE += androidboot.hardware=suzuran
 
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
-
-# Satisfy TWRP specific conditions in common kitakami tree
-RECOVERY_VARIANT := twrp
