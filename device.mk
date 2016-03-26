@@ -64,8 +64,7 @@ PRODUCT_COPY_FILES := \
 	device/sony/suzuran/rootdir/system/etc/Sony_Global_cal.acdb:system/etc/Sony_Global_cal.acdb \
 	device/sony/suzuran/rootdir/system/etc/Fluid_Global_cal.acdb:system/etc/Fluid_Global_cal.acdb \
 	device/sony/suzuran/rootdir/system/etc/Fluid_Handset_cal.acdb:system/etc/Fluid_Handset_cal.acdb \
-	device/sony/suzuran/rootdir/system/etc/BCM4356.hcd:system/etc/BCM4356.hcd
-
+	device/sony/suzuran/rootdir/system/etc/BCM4356.hcd:system/etc/firmware/BCM43xx.hcd
 
 # Device Specific Permissions
 PRODUCT_COPY_FILES += \
