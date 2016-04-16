@@ -419,14 +419,6 @@
     <ctl name="SLIM_0_RX SampleRate" value="KHZ_48" />
     <!-- High Res end -->
 
-    <!-- Speaker Reverse -->
-    <ctl name="Set Custom Stereo OnOff" value="0" />
-    <!-- Speaker Reverse end -->
-
-    <!-- Speaker reverse, mono -->
-    <ctl name="Set Custom Stereo" value="Off" />
-    <!-- Speaker reverse, mono end -->
-
     <!-- These are audio route (FE to BE) specific mixer settings -->
     <path name="deep-buffer-playback">
         <ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia1" value="1" />
@@ -1549,7 +1541,6 @@
         <ctl name="VI_FEED_TX Channels" value="Two" />
         <ctl name="SLIM0_RX_VI_FB_LCH_MUX"  value="SLIM4_TX" />
         <ctl name="SLIM0_RX_VI_FB_RCH_MUX"  value="SLIM4_TX" />
-        <ctl name="Set Custom Stereo" value="Swap" />
     </path>
 
     <path name="fm-speaker">
@@ -1562,12 +1553,10 @@
 
     <path name="ringtone-speaker">
         <path name="speaker" />
-        <ctl name="Set Custom Stereo" value="Mix" />
     </path>
 
     <path name="ringtone-speaker-mono">
         <path name="speaker" />
-        <ctl name="Set Custom Stereo" value="Mix" />
     </path>
 
     <path name="sforce-speaker">
@@ -2177,7 +2166,6 @@
         <ctl name="RX1 Digital Volume" value="55" />
         <ctl name="RX2 Digital Volume" value="55" />
         <path name="headphones-hpf" />
-        <ctl name="Set Custom Stereo" value="Mix" />
     </path>
 
     <path name="speaker-and-headphones-hi-res">
@@ -2190,7 +2178,6 @@
         <ctl name="RX1 Digital Volume" value="55" />
         <ctl name="RX2 Digital Volume" value="55" />
         <path name="headphones-hpf" />
-        <ctl name="Set Custom Stereo" value="Mix" />
     </path>
 
     <path name="ringtone-speaker-and-headphones">
@@ -2727,42 +2714,6 @@
     </path>
 
     <path name="binaural-mic-gain-low">
-        <!-- 120dBSPLpeak & -33dBV/Pa so mic gain 10.5dB so ADCx VOL = 7 -->
-        <ctl name="ADC3 Volume" value="5" />
-        <ctl name="ADC2 Volume" value="5" />
-        <ctl name="IIR1 INP1 Volume" value="87" />
-        <ctl name="IIR2 INP1 Volume" value="87" />
-        <path name="binaural-mic-common" />
-    </path>
-
-    <path name="binaural2-mic">
-        <!-- 120dBSPLpeak & -33dBV/Pa so mic gain 10.5dB so ADCx VOL = 7 -->
-        <ctl name="ADC3 Volume" value="13" />
-        <ctl name="ADC2 Volume" value="13" />
-        <ctl name="IIR1 INP1 Volume" value="87" />
-        <ctl name="IIR2 INP1 Volume" value="87" />
-        <path name="binaural-mic-common" />
-    </path>
-
-    <path name="binaural2-mic-gain-high">
-        <!-- 93dBSPLpeak & -33dBV/Pa so mic gain 28.5dB so ADCx VOL = 19 -->
-        <ctl name="ADC3 Volume" value="18" />
-        <ctl name="ADC2 Volume" value="18" />
-        <ctl name="IIR1 INP1 Volume" value="69" />
-        <ctl name="IIR2 INP1 Volume" value="69" />
-        <path name="binaural-mic-common" />
-    </path>
-
-    <path name="binaural2-mic-gain-mid">
-        <!-- 112dBSPLpeak & -33dBV/Pa so mic gain 18dB so ADCx VOL = 12 -->
-        <ctl name="ADC3 Volume" value="17" />
-        <ctl name="ADC2 Volume" value="17" />
-        <ctl name="IIR1 INP1 Volume" value="80" />
-        <ctl name="IIR2 INP1 Volume" value="80" />
-        <path name="binaural-mic-common" />
-    </path>
-
-    <path name="binaural2-mic-gain-low">
         <!-- 120dBSPLpeak & -33dBV/Pa so mic gain 10.5dB so ADCx VOL = 7 -->
         <ctl name="ADC3 Volume" value="5" />
         <ctl name="ADC2 Volume" value="5" />
@@ -3557,7 +3508,6 @@
         <ctl name="RX1 Digital Volume" value="50" />
         <ctl name="RX2 Digital Volume" value="50" />
         <path name="headphones-hpf" />
-        <ctl name="Set Custom Stereo" value="Mix" />
     </path>
 
     <path name="speaker-anc-nc-off-headphone">
@@ -3566,7 +3516,6 @@
         <ctl name="RX1 Digital Volume" value="50" />
         <ctl name="RX2 Digital Volume" value="50" />
         <path name="headphones-hpf" />
-        <ctl name="Set Custom Stereo" value="Mix" />
     </path>
 
     <path name="speaker-mono-ring-anc-nc-headphone">
@@ -3638,7 +3587,6 @@
         <ctl name="RX1 Digital Volume" value="56" />
         <ctl name="RX2 Digital Volume" value="56" />
         <path name="headphones-hpf" />
-        <ctl name="Set Custom Stereo" value="Mix" />
     </path>
 
     <path name="speaker-anc-nce-off-headphone">
@@ -3647,7 +3595,6 @@
         <ctl name="RX1 Digital Volume" value="56" />
         <ctl name="RX2 Digital Volume" value="56" />
         <path name="headphones-hpf" />
-        <ctl name="Set Custom Stereo" value="Mix" />
     </path>
 
     <path name="speaker-mono-ring-anc-nce-headphone">
@@ -3869,7 +3816,6 @@
         <ctl name="RX1 Digital Volume" value="50" />
         <ctl name="RX2 Digital Volume" value="50" />
         <path name="headphones-hpf" />
-        <ctl name="Set Custom Stereo" value="Mix" />
     </path>
 
     <path name="speaker-anc-nc-off-headphone-hi-res">
@@ -3878,7 +3824,6 @@
         <ctl name="RX1 Digital Volume" value="50" />
         <ctl name="RX2 Digital Volume" value="50" />
         <path name="headphones-hpf" />
-        <ctl name="Set Custom Stereo" value="Mix" />
     </path>
 
     <path name="speaker-ring-anc-nc-headphone-hi-res">
@@ -3921,7 +3866,6 @@
         <ctl name="RX1 Digital Volume" value="56" />
         <ctl name="RX2 Digital Volume" value="56" />
         <path name="headphones-hpf" />
-        <ctl name="Set Custom Stereo" value="Mix" />
     </path>
 
     <path name="speaker-anc-nce-off-headphone-hi-res">
@@ -3930,7 +3874,6 @@
         <ctl name="RX1 Digital Volume" value="56" />
         <ctl name="RX2 Digital Volume" value="56" />
         <path name="headphones-hpf" />
-        <ctl name="Set Custom Stereo" value="Mix" />
     </path>
 
     <path name="speaker-ring-anc-nce-headphone-hi-res">
