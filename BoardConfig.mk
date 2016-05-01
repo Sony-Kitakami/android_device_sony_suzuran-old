@@ -21,7 +21,7 @@ TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
 # BT
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/suzuran/bluetooth
-BOARD_BLUEDROID_VENDOR_CONF := device/sony/suzuran/bluetooth/vnd_generic.txt
+BOARD_CUSTOM_BT_CONFIG := device/sony/suzuran/bluetooth/vnd_generic.txt
 
 #Kernel
 TARGET_KERNEL_CONFIG := cyanogen_kitakami_suzuran_defconfig
