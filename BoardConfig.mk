@@ -20,3 +20,13 @@ TARGET_BOOTLOADER_BOARD_NAME := E5823
 BOARD_KERNEL_CMDLINE += androidboot.hardware=suzuran
 
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
+
+
+# Use these flags if the board has a ext4 partition larger than 2gb
+BOARD_HAS_LARGE_FILESYSTEM := true
+TARGET_USERIMAGES_USE_EXT4 := true
+
+TARGET_KERNEL_HAVE_EXFAT := true
+TARGET_KERNEL_HAVE_NTFS := true
+
+BLOCK_BASED_OTA := false
